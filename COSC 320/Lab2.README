@@ -1,0 +1,20 @@
+//Keith Flagg
+//Dr. Anderson
+//COSC 320
+
+a) quick sort: best: O(nlogn) worst: O(n^2)
+merge sort: best: O(nlogn) worst: O(nlogn)
+
+b) The times become slower as more elements are added the times match with the
+time complexity as they are relatively quick.
+
+c)my best for merge was backwards and my worst was random. My best for quick was Random
+and my worst was sorted.
+
+d)Yes, my tests prove the nlogn worst and best for mergesort as well
+as the n^2 worst and nlogn best of quick sort. These examples are shown by my graphs.
+
+e) These algorithms are faster and more effective.
+
+f) I could include header files and create an output file for results to make the program
+more usable.
