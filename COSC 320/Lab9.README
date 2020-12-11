@@ -1,0 +1,18 @@
+//Keith Flagg
+//Dr. Anderson
+//COSC 320
+//Lab9
+
+a. My approach was to implement all of the ordered prints, printInOrder,
+printPreOrder, printPostOrder, and implement a color system with my prints.
+I also test the times of the functions at the end of my program using 12
+sizes of arrays. I added the size bonus, but did not implement the kth smallest
+algorithm.
+
+b. insert, search, and delete all have a best and worst case of O(logn).
+
+c. The RBT out performed the BST in all of my tests which is correct considering
+the time complexity for each of the trees. The BST takes O(n) time in the worst case.
+
+d. This algorithm is the most efficient way of implementing a tree. To improve
+this program a graph printing algorithm could be added to support the UI.
