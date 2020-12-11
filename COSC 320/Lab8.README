@@ -1,0 +1,18 @@
+//Keith Flagg
+//COSC 320
+//Dr. Anderson
+
+a) my approach to solving the problem was to move the struct out of the class
+and to use the -> operator in the main to access my functions. In order to
+demonstrate the successor function I made the search return a node to find the
+successor. Making the for loops to time the functions and delete them was
+useful in saving memory as well.
+
+b)  The time complexity of the algorithms depend on the height of the tree. As
+the tree adds elements the time to search, insert, and delete goes up and follows
+big O of the tree height as predicted. Best and worst case would be big O of the height.
+
+c) All of my tests lined up with the theoretical time complexity.
+
+d)This could be improved by adding a red black tree property. The tree could
+include a node class as well to increase usability.
