@@ -1,0 +1,13 @@
+//Keith Flagg
+//Dr. Anderson
+//COSC 320
+//Lab10
+
+a) My approach was to use vectors, iterators, and maps to implement the breadth
+first print. My main function shows G1 and G1 and demonstrates no duplicate vertices
+can be created.
+
+b) O(|V| + |E|) where |V| = # of vertices |E| = # of edges.
+best case: O(1) worst case: O(n^2) O(|V^2|)
+
+c) a UI could be added for smoother implementation of the undigraph.
