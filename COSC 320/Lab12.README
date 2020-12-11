@@ -1,0 +1,27 @@
+//Keith Flagg
+//Dr. Anderson
+//COSC 320
+
+a)  My approach was to copy the graph and to perform the vertex cover algorithm on it.
+My algorithm returns a minimal edge cover. My random vertex algorithm uses
+the algorithm library to shuffle the data before returning the minimal cover.
+In order to run the program correctly you must enter
+make clean, make, ./run input.txt. you may use input.txt as a guide for your
+input. enter Y or N to determine whether the graph is a digraph, then enter
+the edges.
+
+b)  The time complexity of the vertex covers are O(|V|+|E|). In the worst case each vertex is traversed.
+For the brute force method the time complexity is O(|E|) * 2^n because every vertex and every edge must be
+traversed.
+
+c.  Vertex cover would be suboptimal when there is one edge between vertices, because
+the whole graph would have to be traversed.
+
+d.  Close to optimal occurs when the graph has almost every vertex connected to each other
+ with an edge. Far from optimal is where there is only one edge between each vertex.
+
+e. The randomized vertex cover is close to the deterministic vertex cover on
+average, but might see a better way to cover a vertex if the user has good luck with the
+algorithm.
+
+f. The code could have a more user friendly UI. ie. making a menu.
