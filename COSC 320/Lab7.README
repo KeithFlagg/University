@@ -1,0 +1,18 @@
+//Keith Flagg
+//Dr. Anderson
+//COSC 320
+
+a) My approach to the problem was to implement the hash equation (ax mod W)/2^(w−p)
+by hardcoding in a as 1500450271 and keeping the size at 32 to not cause overflow issues.
+
+b) My first string conversion function adds the int values of each character in the string and
+then calls the hash function to get the hexidecimal representation of the string. The second
+string conversion function sums each character in the string added to a hardcoded prime times the
+previous number.
+
+c. The int hash function makes sense because it restrains the answer to 32 bits and makes the other bits zero
+to conserve space (ax%2^w). It then right shifts the hash with pow(2,(32 - p)).
+This method ensures the uniqueness of each hash.
+
+d. This code could be improved to be more complex in how it hashes by subdividing and Hashing
+those subdivisions etc. There are more secure methods to hashing than this.
