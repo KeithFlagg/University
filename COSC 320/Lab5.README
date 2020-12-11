@@ -1,0 +1,16 @@
+//Keih Flagg
+//COSC 320
+//Dr. Anderson
+
+
+a) My approach to solving the problem was to initialize the heap with an ascending priority and a string.
+The member functions alter the original heap and index at 0.
+
+b) Buldheap is O(n).  Heapify is O(logn). this means heapsort is O (nlogn)
+
+c) The more elements n added to the heap the slower the algorithm runs.
+
+d) A priority queue heap could be used for hiring an applicant. This queue could
+also be used to order tasks by priority to get things done in order of importance.
+
+e) My code could be improved with an instantiation.cpp file and I could improve how my sort is run.
