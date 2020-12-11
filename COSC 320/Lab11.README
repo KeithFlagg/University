@@ -1,0 +1,18 @@
+//Keith Flagg
+//Dr. Anderson
+//COSC 320
+//Lab 11
+
+a.) I used my lab 10 in order to implement the topological sort and the
+depth first search. My code uses a graph constructor to figure out when a
+graph is directed. In order to run the program correctly you must enter
+make clean, make, ./run input.txt. you may use input.txt as a guide for your
+input. enter Y or N to determine whether the graph is a digraph, then enter
+the edges.
+
+b.)  DFS: O(|V| + |E|)
+Topological sort: O(|V| + |E|)
+SCGC: O(|V| + |E|)
+
+c.) More UI could be added to improve the user experience. More graph
+operations could also be utilized.
