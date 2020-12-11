@@ -1,0 +1,25 @@
+//Keith Flagg
+//COSC 320
+//Dr. Anderson
+
+My code implements the inverse matrix function by using smaller matrix operations in order to
+produce an inverse. Edge cases are tested inside the inverse() function such as a symm() function
+to test if the matrix is symmetrical and a isPowOfTwo() function to determine whether it needs padding or not.
+In order to pad the matrix I found the closest power of two made an identity matrix of that size then
+copied the previous matrix data to that identity matrix. After the edge cases are satisfied the matrix is sub-divided
+and the inverse procedure is preformed from the lab instruction. The matrix is then pieced together in the next step.
+
+
+//to start driver
+//make clean << make << ./run
+
+//to start input program
+//make clean << make << ./input data.txt
+
+As the size of the matrix that is being inverted increases the time it take to invert increases as well as the
+number of operations performed inside the function.
+
+//note makefile is correct for my machine since I have changed my makefile since school has been closed it may not work on
+campus machines.
+
+//iomodel is almost complete except ignoring dashes '-'
